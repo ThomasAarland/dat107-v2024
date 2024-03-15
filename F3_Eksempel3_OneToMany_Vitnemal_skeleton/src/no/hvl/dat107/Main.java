@@ -10,7 +10,7 @@ public class Main {
 
 		Vitnemal vm = vitnemalDAO.hentVitnemalForStudent(123456);
 		System.out.println(vm.toString());
-		}
+		
 		
 		//b) Søke opp karakteren til en gitt student i et gitt kurs.
 

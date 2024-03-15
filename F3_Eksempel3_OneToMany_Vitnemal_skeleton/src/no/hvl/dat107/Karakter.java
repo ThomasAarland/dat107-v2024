@@ -2,7 +2,6 @@ package no.hvl.dat107;
 
 import java.time.LocalDate;
 
-import org.eclipse.persistence.annotations.BasicMap;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
