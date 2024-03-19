@@ -14,7 +14,7 @@
 			<property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
 			<property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://129.151.221.119:5432/676656"/>
 			<property name="jakarta.persistence.jdbc.user" value="676656"/>
-			<property name="jakarta.persistence.jdbc.password" value="00-Wrier-00"/>  -->
+			<property name="jakarta.persistence.jdbc.password" value="123"/>  
 
 			<!-- Passordet blir satt i Java-koden i stedet 
 			<property name="jakarta.persistence.jdbc.password" value=""/>  -->

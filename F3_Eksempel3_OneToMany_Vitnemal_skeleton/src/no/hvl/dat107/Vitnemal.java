@@ -24,7 +24,16 @@ public class Vitnemal {
     @Override
     public String toString() {
         return "Vitnemal [studnr=" + studnr + ", studiestart=" + studiestart + ", studieslutt=" + studieslutt + "]";
+        for (Karakter k : karakterer){
+            s += "\ n    " + k;
+        }
+        return s;
     }
+
+    public void fjernKarakter(Karakter gml) {
+        Karakter.remove(gml);
+    }
+
 
     
 

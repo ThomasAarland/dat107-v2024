@@ -27,10 +27,31 @@ public class Karakter {
 	@JoinColumn(name = "studnr")
 	private Vitnemal vitnemal; //en-til-mange til vitnemal, mellomrom i databasen
 
-	@Override
+	public Karakter(){}
+
+	public Karakter(String emnekode2, LocalDate eksdato2, String bokstav2) {
+		this.emnekode = emnekode2;
+		this.eksdato = eksdato2;
+		this.bokstav = bokstav2;
+	}
+
+
+
+    @Override
 	public String toString() {
 		return "Karakter [karNr=" + karNr + ", emnekode=" + emnekode + ", eksdato=" + eksdato + ", bokstav=" + bokstav
 				+  "]";
+	}
+
+
+
+	public void settVitnemal(Vitnemal vm) {
+		vitnemal = vm;
+
+	}
+
+	public static void remove(Karakter gml) {
+		Karakter.remove(gml);
 	}
 	
 	
